@@ -1,4 +1,3 @@
-
 :root { --primary:#0C7D90; --secondary:#0FA3B1; --accent:#F29F05; --dark:#1B1F23; --light:#F7F9FC; }
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--light);color:var(--dark);font-family:'Cairo', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif}
