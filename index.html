@@ -1,56 +1,241 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>أذهان للاستثمار | الصفحة الرئيسية</title>
-  <meta name="description" content="أذهان للاستثمار - حلول استثمارية مبتكرة ومستدامة." />
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>أذان للاستثمار | نستثمر اليوم لنصنع غدًا أفضل</title>
+  <meta name="description" content="أذان للاستثمار: حلول استثمارية مبتكرة ومستدامة في القطاعات المالية والعقارية والصناعية." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="أذان للاستثمار" />
+  <meta property="og:description" content="حلول استثمارية مبتكرة ومستدامة." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://azancompany.github.io/azan-investment/" />
+  <meta property="og:image" content="https://azancompany.github.io/azan-investment/assets/img/og-image.png" />
+
+  <!-- Alternate language -->
+  en/index.html
+
+  <!-- Fonts -->
+  https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Montserrat:wght@500;700&display=swap
+
+  <!-- Styles -->
+  assets/css/home.css
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-content">
-      <a class="brand" href="index.html">
-        <img src="assets/img/logo.png" alt="شعار أذهان للاستثمار" />
-        <span>أذهان للاستثمار</span>
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-wrap">
+      index.html
+        <!-- ضع شعارك هنا: assets/img/logo.png -->
+        assets/img/logo.png
+        <span class="brand-name">أذان للاستثمار</span>
       </a>
-      <nav class="nav">
-        <a href="index.html" class="active">الرئيسية</a>
-        <a href="about.html">من نحن</a>
-        <a href="services.html">الخدمات</a>
-        <a href="contact.html">تواصل معنا</a>
+
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        index.htmlالرئيسية</a>
+        about.htmlمن نحن</a>
+        <div class="dropdown">
+          <button class="drop-btn" aria-haspopup="true" aria-expanded="false">الخدمات</button>
+          <div class="drop-menu" role="menu">
+            services.html#portfolioإدارة المحافظ</a>
+            services.html#realestateالاستثمار العقاري</a>
+            services.html#fixedincomeالدخل الثابت</a>
+            <a href="html#advisoryاستشارات استثمارية</a>
+          </div>
+        </div>
+        contact.htmlتواصل معنا</a>
       </nav>
-      <a class="btn lang-switch" href="en/index.html" aria-label="English">EN</a>
+
+      <div class="actions">
+        <a class="btn ghost" href="en/index.html"="theme-toggle" aria-label="تبديل الوضع الليلي">
+          <svg class="icon sun" viewBox="0 0 24 24"><path d="M12 4a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1Zm0 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm8-5a1 1 0 0 1 1 1v0a1 1 0 1 1-2 0v0a1 1 0 0 1 1-1ZM5 12a1 1 0 0 1-1 1H2a1 1 0 1 1 0-2h2a1 1 0 0 1 1 1Zm14.07 6.07a1 1 0 0 1-1.41 1.41l-1.41-1.41a1 1 0 1 1 1.41-1.41l1.41 1.41ZM7.76 6.76 6.34 5.34A1 1 0 1 1 7.76 3.93l1.41 1.41A1 1 0 1 1 7.76 6.76ZM6.76 17.24a1 1 0 0 1 0 1.41l-1.41 1.41a1 1 0 0 1-1.41-1.41l1.41-1.41a1 1 0 0 1 1.41 0Zm11.3-12.9a1 1 0 0 1 0 1.41l-1.41 1.41a1 1 0 0 1-1.41-1.41l1.41-1.41a1 1 0 0 1 1.41 0Z"/></svg>
+          <svg class="icon moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z"/></svg>
+        </button>
+        services.htmlابدأ الاستثمار</a>
+      </div>
     </div>
   </header>
+
+  <!-- Hero -->
   <section class="hero">
-    <div class="container hero-content">
-      <h1>نستثمر اليوم لنصنع غدًا أفضل</h1>
-      <p>حلول استثمارية ذكية ومستدامة في القطاعات المالية والعقارية والصناعية.</p>
-      <a class="btn btn-primary" href="services.html">استعرض خدماتنا</a>
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>نستثمر اليوم لنصنع غدًا أفضل</h1>
+        <p>نمزج بين الرؤية الاستراتيجية والحوكمة والابتكار لنقدّم نموًا مستدامًا عبر محافظ متنوعة في القطاعات المالية والعقارية والصناعية.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="services.htmlabout.htmlتعرّف علينا</a>
+        </div>
+        <div class="trust">
+          <span class="chip">حوكمة وامتثال</span>
+          <span class="chip">تنويع القطاعات</span>
+          <span class="chip">قرارات مبنية على البيانات</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <!-- رسم SVG زخرفي -->
+        <svg class="orb" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <radialGradient id="g" cx="50%" cy="50%">
+              <stop offset="0%" stop-color="#59d9e6"/>
+              <stop offset="100%" stop-color="#0C7D90"/>
+            </radialGradient>
+          </defs>
+          <circle cx="100" cy="100" r="90" fill="url(#g)" opacity="0.9"/>
+        </svg>
+        <div class="glass-card">
+          <h3>عوائد متوازنة</h3>
+          <p>بناء المحافظ وفق شهية المخاطر والعائد المستهدف.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64L48,69.3C96,75,192,85,288,90.7C384,96,480,96,576,85.3C672,75,768,53,864,42.7C960,32,1056,32,1152,42.7C1248,53,1344,75,1392,85.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" fill="currentColor"/></svg>
     </div>
   </section>
+
+  <!-- Feature cards -->
   <section class="features container">
-    <div class="feature-card"><h3>رؤية استراتيجية</h3><p>نحلل الأسواق ونبني قرارات مدروسة لتحقيق نمو متوازن طويل الأمد.</p></div>
-    <div class="feature-card"><h3>حوكمة وامتثال</h3><p>نلتزم بأعلى معايير الشفافية والتوافق مع اللوائح لضمان الثقة.</p></div>
-    <div class="feature-card"><h3>تنوع القطاعات</h3><p>محافظ متنوعة عبر العقار، الأسهم، الدخل الثابت، والمشاريع الصناعية.</p></div>
+    <article class="feature">
+      <div class="fi">📈</div>
+      <h3>رؤية استراتيجية</h3>
+      <p>تحليل دوري للأسواق وتحديد فرص النمو على المدى المتوسط والطويل.</p>
+    </article>
+    <article class="feature">
+      <div class="fi">🛡️</div>
+      <h3>حوكمة وامتثال</h3>
+      <p>إطار حوكمة صارم يضمن الشفافية والامتثال للوائح التنظيمية.</p>
+    </article>
+    <article class="feature">
+      <div class="fi">🧭</div>
+      <h3>تنويع القطاعات</h3>
+      <p>محافظ موزّعة بين العقار والأسهم والدخل الثابت ومشاريع صناعية مختارة.</p>
+    </article>
+    <article class="feature">
+      <div class="fi">🤝</div>
+      <h3>شراكات موثوقة</h3>
+      <p>شبكة شركاء وخبراء تزيد من جودة تنفيذ الاستراتيجية الاستثمارية.</p>
+    </article>
   </section>
+
+  <!-- Stats -->
   <section class="stats">
     <div class="container stats-grid">
-      <div class="stat"><span class="number">+25</span><span class="label">مشروعًا قائمًا</span></div>
-      <div class="stat"><span class="number">+10</span><span class="label">سنوات خبرة</span></div>
-      <div class="stat"><span class="number">+15%</span><span class="label">متوسط العائد السنوي</span></div>
+      <div class="stat">
+        <span class="num" data-target="25">0</span><span class="unit">+</span>
+        <span class="label">مشروع قائم</span>
+      </div>
+      <div class="stat">
+        <span class="num" data-target="10">0</span><span class="unit">+</span>
+        <span class="label">سنوات خبرة</span>
+      </div>
+      <div class="stat">
+        <span class="num" data-target="15">0</span><span class="unit">%</span>
+        <span class="label">متوسط عائد سنوي</span>
+      </div>
     </div>
   </section>
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div><h4>أذهان للاستثمار</h4><p>نمو مستدام مبني على المعرفة والتحليل.</p></div>
-      <div><h4>روابط سريعة</h4><ul><li><a href="about.html">من نحن</a></li><li><a href="services.html">الخدمات</a></li><li><a href="contact.html">تواصل معنا</a></li></ul></div>
-      <div><h4>تواصل</h4><ul><li>البريد: info@azan-invest.com</li><li>الهاتف: +966-XXXXXXXXX</li><li>الموقع: رأس الخير، المنطقة الشرقية</li></ul></div>
+
+  <!-- Callout -->
+  <section class="callout container">
+    <div class="call-card">
+      <h3>ابدأ ببناء محفظتك اليوم</h3>
+      <p>تواصل معنا لتقييم أهدافك الاستثمارية وتحديد الاستراتيجية الأنسب لك.</p>
+      contact.htmlتواصل معنا</a>
     </div>
-    <div class="copy">© <span id="year"></span> أذهان للاستثمار. جميع الحقوق محفوظة.</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>أذان للاستثمار</h4>
+        <p>نمو مستدام مبني على المعرفة والتحليل وإدارة المخاطر.</p>
+      </div>
+      <div>
+        <h4>روابط</h4>
+        <ul>
+          <li>about.htmlمن نحن</a></li>
+          <li><a href="htmlالخدمات</a></li>
+          <li>contact.htmlتواصل معنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>تواصل</h4>
+        <ul class="contacts">
+          <li>البريد: info@azan.sa</li>
+          <li>الهاتف: +966-XXXXXXXXX</li>
+          <li>الموقع: رأس الخير، المنطقة الشرقية</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">© <span id="year"></span> أذان للاستثمار. جميع الحقوق محفوظة.</div>
   </footer>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+  <!-- JSON-LD Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Azan Investment",
+    "url": "https://azancompany.github.io/azan-investment/",
+    "logo": "https://azancompany.github.io/azan-investment/assets/img/logo.png",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- Scripts -->
+  <script>
+    // سنة الحقوق
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // فتح/إغلاق القائمة المنسدلة للخدمات
+    const dropBtn = document.querySelector('.drop-btn');
+    const dropMenu = document.querySelector('.drop-menu');
+    if (dropBtn) {
+      dropBtn.addEventListener('click', () => {
+        const ex = dropBtn.getAttribute('aria-expanded') === 'true';
+        dropBtn.setAttribute('aria-expanded', String(!ex));
+        dropMenu.classList.toggle('open');
+      });
+      document.addEventListener('click', (e) => {
+        if (!dropMenu.contains(e.target) && e.target !== dropBtn) {
+          dropMenu.classList.remove('open');
+          dropBtn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // عدادات الأرقام عند الظهور
+    const counters = document.querySelectorAll('.num');
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) animateCounter(entry.target);
+      });
+    }, { threshold: 0.6 });
+    counters.forEach(c => io.observe(c));
+    function animateCounter(el) {
+      const target = +el.dataset.target;
+      const step = Math.ceil(target / 60); // ~1s
+      let curr = 0;
+      const t = setInterval(() => {
+        curr += step;
+        if (curr >= target) { el.textContent = target; clearInterval(t); }
+        else { el.textContent = curr; }
+      }, 16);
+    }
+
+    // تبديل الوضع الليلي
+    const toggle = document.querySelector('.theme-toggle');
+    const root = document.documentElement;
+    const saved = localStorage.getItem('theme');
+    if (saved) root.dataset.theme = saved;
+    toggle.addEventListener('click', () => {
+      const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+      root.dataset.theme = next;
+      local      localStorage.setItem('theme', next);
+    });
+  </script>
 </body>
-</html>
